@@ -1,0 +1,26 @@
+.box{
+  border: 1px solid black;
+  width: 400px;
+}
+.item-img{
+  width: 400px;
+}
+.main{
+  display: flex;
+  justify-content: center;
+}
+
+.Win {
+  border: 10px solid green;
+  color: green;
+}
+
+.Lose {
+  border: 10px solid red;
+  color: red;
+}
+
+.Tie {
+  border: 10px solid purple;
+  color: purple;
+}
