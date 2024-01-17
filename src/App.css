@@ -1,26 +1,61 @@
-.box{
-  border: 1px solid black;
-  width: 400px;
+body{
+  background-color: rgb(130, 246, 6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+ 
 }
-.item-img{
-  width: 400px;
-}
+
 .main{
   display: flex;
   justify-content: center;
 }
+.box{ 
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid black;
+  width: 400px;
+  height: 650px;
+  background-color: white;
+ 
+}
+.item-img{
+  width: 400px;
+}
+
+.buttonList {
+  align-items: center;
+  border-top: 1px solid #ccc;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  padding-top: 1.5rem;
+}
+button{
+  width: 4rem;
+  height: 4rem;
+  border-radius: 1rem;
+}
+button:hover{
+  background-color: yellow;
+}
+
 
 .Win {
-  border: 10px solid green;
+  border: 5px solid green;
   color: green;
 }
 
 .Lose {
-  border: 10px solid red;
+  border: 5px solid red;
   color: red;
 }
 
 .Tie {
-  border: 10px solid purple;
+  border: 5px solid purple;
   color: purple;
 }

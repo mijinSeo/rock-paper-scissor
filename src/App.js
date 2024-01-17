@@ -66,16 +66,17 @@ function App() {
   };
 
   return (
-    <div>
+    <div className='center'>
       <div className='main'>
         <Box title="You" item={userSelect} result = {result}/>
         <Box title="Computer" item ={computerSelect} result = {result}/>
       </div>
-      <div className='main'>
+      <div className='buttonList'>
         {/* onClick할때 함수를 호출하는 형식이 아닌 콜백하는 형식으로 넣어줘야함.*/}
-        <button onClick={() => play("scissors")}>가위</button>
-        <button onClick={() => play("rock")}>바위</button>
-        <button onClick={() => play("paper")}>보</button>
+    
+        <button  className='fa-regular fa-hand-scissors fa-2x' onClick={() => play("scissors")}></button>
+        <button className='fa-regular fa-hand-back-fist fa-2x' onClick={() => play("rock")}></button>
+        <button className='fa-regular fa-hand fa-2x'onClick={() => play("paper")}></button>
       </div>
     </div>
   
