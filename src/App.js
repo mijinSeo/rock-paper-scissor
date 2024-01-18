@@ -73,7 +73,7 @@ function App() {
       </div>
       <div className='buttonList'>
         {/* onClick할때 함수를 호출하는 형식이 아닌 콜백하는 형식으로 넣어줘야함.*/}
-    
+        
         <button  className='fa-regular fa-hand-scissors fa-2x' onClick={() => play("scissors")}></button>
         <button className='fa-regular fa-hand-back-fist fa-2x' onClick={() => play("rock")}></button>
         <button className='fa-regular fa-hand fa-2x'onClick={() => play("paper")}></button>
